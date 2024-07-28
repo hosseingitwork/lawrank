@@ -1,0 +1,86 @@
+$noto-font: "Noto Sans", sans-serif;
+
+
+body{
+    background-image: url("../assets/images/pexels-august-de-richelieu-4427430\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-article{
+    margin-right: 2rem;
+}
+
+.log-menu{
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-bar {
+    font-family: $noto-font;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    margin-top: 1.8rem;
+    a {
+        color: white;
+        text-decoration: none;
+        margin: 15px;
+    }
+}
+
+.phone-number{
+    margin-top: 1rem;
+    text-align: right;
+    div{
+        color: white;
+        font-family: $noto-font;
+        font-weight: 800;
+        margin-right: 1rem;
+        letter-spacing: 0.1rem;
+        font-size: 1.4rem;
+    }
+}
+
+.main-case-rev{
+    text-align: center;
+    color: white;
+    font-family: $noto-font;
+    margin-top: 8.7rem;
+    .san-diego{
+        font-size: 1.5rem;
+        letter-spacing: 0.4rem;
+    }
+    .premiere{
+        font-family: 'Times New Roman', Times, serif; 
+        font-size: 7rem;
+        letter-spacing: 1.2rem;
+        margin-top: 1rem;
+    }
+    .injury{
+        margin-top: 3rem;
+    }
+}
+
+.free-case-button{
+    margin-top: 3rem;
+    background-color: #FF0000;
+    color: white;
+    font-weight: 550;
+    letter-spacing: 0.2rem;
+    padding: 20px 32px;
+    border: #FF0000;
+    margin-bottom: 5rem;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1480px) {}
+
+/* For Tablet View */
+@media screen and (min-device-width: 810px) and (max-device-width: 1480px) {}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 375px) {}
