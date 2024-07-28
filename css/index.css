@@ -1,11 +1,15 @@
 body {
   background-image: url("../assets/images/pexels-august-de-richelieu-4427430 1.png");
   background-repeat: no-repeat;
+  background-attachment: fixed; /* Fix the background image */
   background-size: cover;
+  padding: 0;
+  margin: 0;
 }
 
 .menu-article {
   margin-right: 2rem;
+  margin-bottom: 8rem;
 }
 
 .log-menu {
@@ -70,7 +74,97 @@ body {
   letter-spacing: 0.2rem;
   padding: 20px 32px;
   border: #FF0000;
-  margin-bottom: 5rem;
+  cursor: pointer;
+}
+
+/* SECTION 2 */
+.case-results-aricle {
+  background-color: black;
+  padding-top: 8rem;
+  padding-left: 15rem;
+}
+.case-results-aricle .case-main {
+  margin-top: 4rem;
+}
+.case-results-aricle .title-case {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.case-results-aricle .we-get-results {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.case-results-aricle .we-get-results .text-bg-color-image {
+  background: url("../assets/images/image 11.png") no-repeat center center;
+  background-size: cover;
+  -webkit-background-clip: text; /* Safari/Chrome */
+  background-clip: text;
+  color: transparent;
+  font-size: 5rem;
+  font-weight: 700;
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.case-results-aricle .we-get-results .see-all-results-button {
+  margin-right: 2rem;
+  padding: 1rem;
+  border: #D85172 1px solid;
+  border-radius: 0.5rem;
+  background-color: inherit;
+  color: white;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+.case-results-aricle .casses-box {
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+}
+.case-results-aricle .casses-box .case-box {
+  background-color: white;
+  padding: 5rem;
+  width: 50%;
+}
+.case-results-aricle .casses-box .case-box .category-result {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 0.5rem;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+.case-results-aricle .casses-box .case-box .description-last-title {
+  font-family: "Lato", sans-serif;
+  margin-top: 1.5rem;
+  line-height: 2rem;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+.case-results-aricle .casses-box .case-box .amount {
+  margin-top: 1.5rem;
+  color: #D85172;
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.case-results-aricle .nav-icons .left {
+  cursor: pointer;
+  transform: scaleX(-1);
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.case-results-aricle .nav-icons .right {
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.sergey-image img {
+  width: 100%;
+  height: 100%;
 }
 
 /* For Desktop View */
