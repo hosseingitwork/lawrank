@@ -1,6 +1,7 @@
 $noto-font: "Noto Sans", sans-serif;
 $times-font: 'Times New Roman', Times, serif; 
 $lato-font : "Lato", sans-serif;
+$font-robot: "Roboto Slab", serif;
 $pink: #D85172;
 
 
@@ -197,6 +198,49 @@ body{
         text-align: center;
         box-sizing: border-box;
         flex: 1;
+    }
+}
+
+.why-choose-us-aricle{
+    padding: 10rem;
+    background: linear-gradient(to bottom, white 30%, #EAEAEA 30%);
+    .why-title{
+        font-family: $font-robot;
+        font-size: 5rem;
+        margin-bottom: 3rem;
+    }
+    .why-boxes{
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 4rem;
+        .box{
+            margin: 2rem;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            flex: 1 0 20%;
+            .why-box-title{
+                font-size: 2rem;
+                font-family: $font-robot;
+            }
+            .why-description{
+                line-height: 2;
+                margin-bottom: 4rem;
+            }
+        }
+    }
+    .why-button{
+        text-transform: uppercase; 
+        margin-top: 3rem; 
+        background-color: #C50A20; 
+        padding: 1.5rem; 
+        color: white;
+        font-family: $font-robot;
+        letter-spacing: 0.1rem;
+        border: #C50A20 2px solid; 
+        border-radius: 0.3rem;
+        cursor: pointer;
     }
 }
 
