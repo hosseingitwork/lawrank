@@ -98,6 +98,7 @@ body {
   color: white;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .case-results-aricle .we-get-results .text-bg-color-image {
   background: url("../assets/images/image 11.png") no-repeat center center;
@@ -308,6 +309,23 @@ body {
     padding: 10px;
     border-bottom: 1px solid #ccc;
     color: #000;
+  }
+  .case-results-aricle {
+    padding: 2rem;
+  }
+  .case-results-aricle .case-main .title-case {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .case-results-aricle .we-get-results .text-bg-color-image {
+    text-align: left;
+    flex: 1 0 100%;
+    margin-bottom: 3rem;
+    font-size: 10rem;
+  }
+  .case-results-aricle .we-get-results .see-all-results-button {
+    text-align: left;
+    font-size: 1.3rem;
   }
 }
 /* For Mobile Portrait View *//*# sourceMappingURL=index.css.map */
