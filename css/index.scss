@@ -131,10 +131,15 @@ body{
     .casses-box{
         margin-top: 8rem;
         margin-bottom: 2rem;
+        display: flex;
+        gap: 1rem;
+        overflow: hidden;
+        width: 100%;
         .case-box{
             background-color: white;
             padding: 5rem;
-            width: 50%;
+            margin-right: 1rem;
+            flex: 1 0 50%;
             .category-result{
                 font-family: 'Times New Roman', Times, serif;
                 letter-spacing: 0.5rem;
