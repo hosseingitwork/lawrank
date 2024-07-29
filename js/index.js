@@ -20,7 +20,27 @@ const events = [
     }
 ]
 
-
+document.addEventListener('DOMContentLoaded', () => {
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const navBar = document.getElementById('nav-bar');
+  
+    function handleResize() {
+      if (window.innerWidth > 1479) {
+        navBar.style.display = 'flex';
+      } else if (!navBar.classList.contains('active')) {
+        navBar.style.display = 'none';
+      }
+    }
+  
+    hamburgerMenu.addEventListener('click', () => {
+      navBar.style.display = navBar.style.display === 'flex' ? 'none' : 'flex';
+      navBar.classList.toggle('active');
+    });
+  
+    window.addEventListener('resize', handleResize);
+    handleResize(); // Initial check
+  });
+  
 // function to print all events
 const print_events = (events) => {
 

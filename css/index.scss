@@ -273,10 +273,26 @@ body{
     letter-spacing: 0.2rem;
 }
 
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+  }
+
 /* Desktop */
 @media (min-width: 1479px) {
     .call-us{
         display: none;
+    }
+    #nav-bar{
+        display: flex;
     }
 }
 
@@ -287,6 +303,30 @@ body{
             display: none;
         }
     }
+
+    #nav-bar {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        border-top: 1px solid #ccc;
+        z-index: 10;
+        margin-top: 6rem;
+      }
+
+      .hamburger-menu {
+        display: flex;
+      }
+
+      #nav-bar a {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+        color: #000;
+      }
+
 }
 
 /* For Mobile Portrait View */
