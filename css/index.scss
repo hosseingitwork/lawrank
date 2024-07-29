@@ -239,7 +239,8 @@ body{
             .why-box-title{
                 font-size: 1.5rem;
                 font-family: $font-robot;
-                height: 7rem;
+                height: 8rem;
+                width: 12rem;
             }
             .why-description{
                 line-height: 2;
@@ -263,13 +264,31 @@ body{
     }
 }
 
-/* For Desktop View */
-@media screen and (min-width: 1480px) {}
+.call-us{
+    background-color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    font-family: $noto-font;
+    letter-spacing: 0.2rem;
+}
 
-/* For Tablet View */
-@media(max-width: 810px){
+/* Desktop */
+@media (min-width: 1479px) {
+    .call-us{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1479px) {
+    .menu-article{
+        .phone-number{
+            display: none;
+        }
+    }
 }
 
 /* For Mobile Portrait View */
-@media (max-width: 375px) {
+@media (max-width: 810px) {
 }

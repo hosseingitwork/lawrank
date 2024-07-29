@@ -231,7 +231,8 @@ body {
 .why-choose-us-aricle .why-boxes .box .why-box-title {
   font-size: 1.5rem;
   font-family: "Roboto Slab", serif;
-  height: 7rem;
+  height: 8rem;
+  width: 12rem;
 }
 .why-choose-us-aricle .why-boxes .box .why-description {
   line-height: 2;
@@ -252,6 +253,25 @@ body {
   cursor: pointer;
 }
 
-/* For Desktop View */
-/* For Tablet View */
+.call-us {
+  background-color: white;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 0.2rem;
+}
+
+/* Desktop */
+@media (min-width: 1479px) {
+  .call-us {
+    display: none;
+  }
+}
+/* Tablet */
+@media (max-width: 1479px) {
+  .menu-article .phone-number {
+    display: none;
+  }
+}
 /* For Mobile Portrait View *//*# sourceMappingURL=index.css.map */
